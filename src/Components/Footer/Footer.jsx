@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import footer_logo from '../../assets/footer_logo.svg';
+import intesar from '../../assets/intesar.png';
 import user_icon from '../../assets/user_icon.svg';
 
 const Footer = () => {
@@ -8,7 +8,7 @@ const Footer = () => {
     <div className='footer'>
         <div className='footer-top'>
             <div className='footer-top-left'>
-                <img src={footer_logo} alt='footer_logo'/>
+                <img src={intesar} alt='footer_logo'/>
                 <p>I am Intesar Shawon, Frontend Developer based in Bangladesh</p>
             </div>
             <div className='footer-top-right'>
