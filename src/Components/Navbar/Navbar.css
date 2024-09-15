@@ -8,6 +8,7 @@
 .navbar img{
     width: 120px;
     cursor: pointer;
+    margin-left: -80px;
 }
 
 .nav-menu{
@@ -59,6 +60,10 @@
 @media(max-width:768px){
     .navbar{
         margin: 20px 50px;
+    }
+
+    .navbar img{
+        margin-left: 0px;
     }
 
     .nav-connect{
