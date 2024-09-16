@@ -11,7 +11,7 @@ const Services = () => {
             <img src={theme_pattern} alt='theme_pattern' />
         </div>
         <div className='services-container'>
-            
+              <p>I am Intesar Shawon, Frontend Developer based in Bangladesh I am Intesar Shawon, Frontend Developer based in Bangladesh I am Intesar Shawon, Frontend Developer based in Bangladesh I am Intesar Shawon, Frontend Developer based in Bangladesh.I am Intesar Shawon, Frontend Developer based in Bangladesh I am Intesar Shawon, Frontend Developer based in Bangladesh I am Intesar Shawon, Frontend Developer based in Bangladesh I am Intesar Shawon, Frontend Developer based in Bangladesh.I am Intesar Shawon, Frontend Developer based in Bangladesh I am Intesar Shawon, Frontend Developer based in Bangladesh I am Intesar Shawon, Frontend Developer based in Bangladesh I am Intesar Shawon, Frontend Developer based in Bangladesh.I am Intesar Shawon, Frontend Developer based in Bangladesh I am Intesar Shawon, Frontend Developer based in Bangladesh I am Intesar Shawon, Frontend Developer based in Bangladesh I am Intesar Shawon, Frontend Developer based in Bangladesh.</p>
         </div>
     </div>
   )
