@@ -1,6 +1,6 @@
 // import React from 'react';
 import './Navbar.css';
-import intesar from '../../assets/intesar.png';
+import intesar1 from '../../assets/intesar.png';
 import underline from '../../assets/nav_underline.svg';
 import { useRef, useState } from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
@@ -22,9 +22,10 @@ const Navbar = () => {
 
   return (
     <div className='navbar'>
-        <img src={intesar} alt='logo' onClick={()=> setMenu('home')} />
-        <img className='nav-mob-open' src={menu_open} alt='menu_open' onClick={openMenu}/>
+          <img src={intesar1} alt='logo' onClick={()=> setMenu('home')} />
+          <img className='nav-mob-open' src={menu_open} alt='menu_open' onClick={openMenu}/>
         <ul ref={menuRef} className='nav-menu'>
+            
             <img className='nav-mob-close' src={menu_close} alt='menu_close' onClick={closeMenu} />
             <li><AnchorLink className='anchor-link' href='#home'><p onClick={()=> setMenu('home')}>Home</p></AnchorLink>{menu==='home' ? <img src={underline} alt='underline'/> : <></>}</li>
             <li><AnchorLink className='anchor-link' offset={50} href='#about'><p onClick={()=> setMenu('about')}>About Me</p></AnchorLink>{menu === 'about' ? <img src={underline} alt='underline'/> : <></>}</li>

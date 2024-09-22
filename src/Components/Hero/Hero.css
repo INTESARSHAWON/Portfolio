@@ -40,10 +40,18 @@
     margin-bottom: 50px;
 }
 
-.hero-connect{
+.hero-action Link{
+    text-decoration: none;
+}
+
+.hero-github{
+    display: flex;
+    gap: 5px;
     padding: 25px 45px;
     border-radius: 50px;
     background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
+    color: #FFF;
+    text-decoration:none;
     cursor: pointer;
 }
 
@@ -54,7 +62,7 @@
     cursor: pointer;
 }
 
-.hero-connect:hover{
+.hero-github:hover{
     border: 2px solid white;
 }
 

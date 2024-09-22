@@ -1,17 +1,29 @@
 .explore-button{
-    padding: 25px 45px;
+    /* padding: 25px 45px; */
+    text-align: center;
+    width: 350px;
+    padding: 15px;
+    margin: auto;
     border-radius: 50px;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 500;
     background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
     cursor: pointer;
 }
 
 .explore-button:hover{
-    border: 2px solid white;
+    border: 0.5px solid white;
+    border-radius: 50px;
 }
 
 .card-container img{
-    height: 300px;
-    width: 400px;
+    height: 270px;
+    width: 350px;
+    padding: 25px 30px;
+    cursor: pointer;
+}
+
+.card-container img:hover{
+    border: 0.5px solid white;
+    border-radius: 50px;
 }

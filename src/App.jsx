@@ -1,23 +1,24 @@
-import React from 'react'
-import Navbar from './Components/Navbar/Navbar'
-import Hero from './Components/Hero/Hero'
-import About from './Components/About/About'
-import Services from './Components/Services/Services'
-import Contact from './Components/Contact/Contact'
-import Footer from './Components/Footer/Footer'
-import MyWork from './Components/MyWork/MyWork'
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Homepage from "./Components/Homepage/Homepage";
+import ProjectDetail from "./Components/ProjectDetail/ProjectDetail";
 
-const App = () => {
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Homepage/>, 
+  },
+  {
+    path: "/detail/:id",
+    element: <ProjectDetail/>, 
+  },  
+]);
+
+
+function App() {
   return (
-    <div>
-      <Navbar/>
-      <Hero/>
-      <About/>
-      <Services/>
-      <MyWork/>
-      <Contact/>
-      <Footer/>
-    </div>
+    <>
+      <RouterProvider router={router} />
+    </>
   )
 }
 
