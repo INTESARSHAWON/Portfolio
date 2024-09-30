@@ -16,24 +16,51 @@ const ProjectDetail = () => {
     const details = [
       {
         id: 1,
-        title: "b",
-        screenshots: [i1, i2, i3, i4, i5],
-        features: ["a", "b", "c", "d", "e"],
+        title: "React Cripto Dashboard",
+        // screenshots: [dasboard, transactions, support, signup, signin, forgotpassword],
+        projectdetails: "This is a responsive crypto dashboard app created by React where I implemented authentication. There is a signin page, a signup page, along with a dashboard with transactions and support system. A user can sign in or sign out from the dashboard. Here I use Chakra UI as well.",
+        features: ["React", "Chakra UI", "JS", "CSS"],
         livelink: "www.facebook.com",
         gitlink: "www.facebook.com",
       },
       {
         id: 2,
-        title: "a",
-        screenshots: [i1, i2, i3, i4, i5],
-        features: ["a", "b", "c", "d", "f"],
+        title: "Dice Games (React)",
+        // screenshots: [dashboard, playNow, playingGame, showRules],
+        projectdetails: "its a Dice Game made with React. First user have to click play game to open the game. Then user have to select a number and roll the dice. If the number matches, user will get two point. If it doesn't then two points will be decreased. User can check total win or total lose in this game. Also user can check the rules and reset the game.",
+        features: ["React", "JS", "CSS"],
         livelink: "www.facebook.com",
         gitlink: "www.facebook.com",
       },{
         id: 3,
-        title: "a",
-        screenshots: [i1, i2, i3, i4, i5],
-        features: ["a", "b", "c", "d", "f"],
+        title: "React Foody Zone",
+        // screenshots: [foodyzone, breakfast, lunch, dinner, searchoption],
+        projectdetails: "A food related responsive webpage where all the data comes from backend. Here I use Api calling function. Here A user can search food from the list.",
+        features: ["React", "Styled components", "JS"],
+        livelink: "www.facebook.com",
+        gitlink: "www.facebook.com",
+      },{
+        id: 4,
+        title: "E-Commerce (JS)",
+        // screenshots: [mainWebsite, shopPage, shoppingPage, blogPage, aboutPage, contactPage],
+        projectdetails: "This is a reponsive e-commerce site where a customer can buy products, add to cart, read some blogs, know about the site and can contact with the organization.",
+        features: ["JS", "CSS", "html"],
+        livelink: "www.facebook.com",
+        gitlink: "www.facebook.com",
+      },{
+        id: 5,
+        title: "Amazon Clone",
+        // screenshots: [mainWebsite],
+        projectdetails: "This is a clone of the Amazon website. Its very simple. Only CSS and html are used here.",
+        features: ["CSS", "html"],
+        livelink: "www.facebook.com",
+        gitlink: "www.facebook.com",
+      },{
+        id: 6,
+        title: "Sliding Album (JS)",
+        // screenshots: [slidingimage],
+        projectdetails: "a sliding album created by JS and css where user can see the photos on a sliding album.",
+        features: ["JS", "CSS"],
         livelink: "www.facebook.com",
         gitlink: "www.facebook.com",
       },
@@ -58,6 +85,7 @@ const ProjectDetail = () => {
         <Navbar/>
         {isLoading ? <h1>Loading</h1> : <div>
           <h1>{project.title}</h1>
+          <p>{project.projectdetails}</p>
           <img src={project.screenshots}/>
           <p>{project.features}</p>
           <p>{project.livelink}</p>

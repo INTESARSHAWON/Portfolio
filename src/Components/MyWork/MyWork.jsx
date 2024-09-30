@@ -20,11 +20,11 @@ const MyWork = ({projectThumb, title}) => {
         </div>
         <div className='mywork-container'>
               <Card id={1} projectThumb={project_1} title="React Auth Dashboard"/>
-              <Card id={2} projectThumb={project_2} title="React Foody Zone"/>
-              <Card id={3} projectThumb={project_3} title="E-Commerce (JS)"/>
-              <Card id={4} projectThumb={project_4} title="Sliding Album (JS)"/>
+              <Card id={2} projectThumb={project_2} title="Dice Games (React)"/>
+              <Card id={3} projectThumb={project_3} title="React Foody Zone"/>
+              <Card id={4} projectThumb={project_4} title="E-Commerce (JS)"/>
               <Card id={5} projectThumb={project_5} title="Amazon Clone"/>
-              <Card id={6} projectThumb={project_6} title="Dice Games (JS)"/>
+              <Card id={6} projectThumb={project_6} title="Sliding Album (JS)"/>
           </div>
           <div className='mywork-showmore'>
               <p>Show More</p>
