@@ -10,6 +10,24 @@ import support from "../../assets/ReactCryptoDashboard/support.jpg";
 import signup from "../../assets/ReactCryptoDashboard/signup.jpg";
 import signin from "../../assets/ReactCryptoDashboard/signin.jpg";
 import forgotpassword from "../../assets/ReactCryptoDashboard/forgotpassword.jpg";
+import dashboard2 from "../../assets/DiceGames/dashboard2.jpg";
+import playNow from "../../assets/DiceGames/playNow.jpg";
+import playingGame from "../../assets/DiceGames/playingGame.jpg";
+import showRules from "../../assets/DiceGames/showRules.jpg";
+import foodyzone from "../../assets/FoodyZone/foodyzone.jpg";
+import breakfast from "../../assets/FoodyZone/breakfast.jpg";
+import lunch from "../../assets/FoodyZone/lunch.jpg";
+import dinner from "../../assets/FoodyZone/dinner.jpg";
+import searchoption from "../../assets/FoodyZone/searchoption.jpg";
+import mainWebsite from "../../assets/ECommerce/mainWebsite.jpg";
+import shopPage from "../../assets/ECommerce/shopPage.jpg";
+import shoppingPage from "../../assets/ECommerce/shoppingPage.jpg";
+import blogPage from "../../assets/ECommerce/blogPage.jpg";
+import aboutPage from "../../assets/ECommerce/aboutPage.jpg";
+import contactPage from "../../assets/ECommerce/contactPage.jpg";
+import mainWebsite2 from "../../assets/AmazonClone/mainWebsite2.jpg";
+import slidingalbum from "../../assets/SlidingAlbum/slidingalbum.jpg";
+import slidingalbum2 from "../../assets/SlidingAlbum/slidingalbum2.jpg";
 
 const ProjectDetail = () => {
 
@@ -29,7 +47,7 @@ const ProjectDetail = () => {
       {
         id: 2,
         title: "Dice Games (React)",
-        // screenshots: [dashboard, playNow, playingGame, showRules],
+        screenshots: [dashboard2, playNow, playingGame, showRules],
         projectdetails: "its a Dice Game made with React. First user have to click play game to open the game. Then user have to select a number and roll the dice. If the number matches, user will get two point. If it doesn't then two points will be decreased. User can check total win or total lose in this game. Also user can check the rules and reset the game.",
         features: ["1.React", " ", "2.JS", " ", "3.CSS"],
         livelink: "www.facebook.com",
@@ -37,7 +55,7 @@ const ProjectDetail = () => {
       },{
         id: 3,
         title: "React Foody Zone",
-        // screenshots: [foodyzone, breakfast, lunch, dinner, searchoption],
+        screenshots: [foodyzone, breakfast, lunch, dinner, searchoption],
         projectdetails: "A food related responsive webpage where all the data comes from backend. Here I use Api calling function. Here A user can search food from the list.",
         features: ["1.React", " ", "2.Styled components", " ", "3.JS"],
         livelink: "www.facebook.com",
@@ -45,7 +63,7 @@ const ProjectDetail = () => {
       },{
         id: 4,
         title: "E-Commerce (JS)",
-        // screenshots: [mainWebsite, shopPage, shoppingPage, blogPage, aboutPage, contactPage],
+        screenshots: [mainWebsite, shopPage, shoppingPage, blogPage, aboutPage, contactPage],
         projectdetails: "This is a reponsive e-commerce site where a customer can buy products, add to cart, read some blogs, know about the site and can contact with the organization.",
         features: ["1.JS", " ", "2.CSS", " ", "3.html"],
         livelink: "www.facebook.com",
@@ -53,7 +71,7 @@ const ProjectDetail = () => {
       },{
         id: 5,
         title: "Amazon Clone",
-        // screenshots: [mainWebsite],
+        screenshots: [mainWebsite2],
         projectdetails: "This is a clone of the Amazon website. Its very simple. Only CSS and html are used here.",
         features: ["1.CSS", " ", "2.html"],
         livelink: "www.facebook.com",
@@ -61,7 +79,7 @@ const ProjectDetail = () => {
       },{
         id: 6,
         title: "Sliding Album (JS)",
-        // screenshots: [slidingimage],
+        screenshots: [slidingalbum, slidingalbum2],
         projectdetails: "a sliding album created by JS and css where user can see the photos on a sliding album.",
         features: ["1.JS", " ", "2.CSS"],
         livelink: "www.facebook.com",
