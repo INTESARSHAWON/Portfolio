@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Navbar from '../Navbar/Navbar'
 import Footer from '../Footer/Footer'
-import { useParams } from 'react-router'
+import { useLocation, useParams } from 'react-router'
 import './projectDetail.css';
 import { Link } from 'react-router-dom';
 import dashboard from "../../assets/ReactCryptoDashboard/dashboard.jpg";
@@ -37,7 +37,7 @@ const ProjectDetail = () => {
     const details = [
       {
         id: 1,
-        title: "React Cripto Dashboard",
+        title: "React Auth Cripto Dashboard",
         screenshots: [dashboard, transactions, support, signup, signin, forgotpassword],
         projectdetails: "This is a responsive crypto dashboard app created by React where I implemented authentication. There is a signin page, a signup page, along with a dashboard with transactions and support system. A user can sign in or sign out from the dashboard. Here I use Chakra UI as well.",
         features: ["1.React", " ", "2.Chakra UI", " ", "3.JS", " ", "4.CSS"],
@@ -86,7 +86,7 @@ const ProjectDetail = () => {
         gitlink: "www.facebook.com",
       },
     ];
-  
+    
 
     const id = useParams();
     console.log(id.id);
@@ -104,18 +104,22 @@ const ProjectDetail = () => {
     
   
   return (
-    <div>
-        <Navbar/>
+    <div className=''>
+        <div>
+          <Link className= 'back-button' to="/#mywork"> <div> Back </div> </Link>
+        </div>
         {isLoading ? <h1>Loading</h1> : <div className='projectDetail'>
           <h1>{project.title}</h1>
           <p>{project.projectdetails}</p>
           {/* <img src={project.screenshots[0]}/> */}
-          <div className=''>
+          <div className='myworkImage'>
               {
                 project.screenshots?.length > 0 && project.screenshots.map((tic,id)=><img src={tic} key={id} alt='screenshots'/>)
               }
           </div>
-          <p className='features'>Features- {project.features}</p>
+          <div className='myworkFeatures'>
+              <p>Features- {project.features}</p>
+          </div>
           <p>Livelink- {project.livelink}</p>
           <p>Gitlink- {project.gitlink}</p>
         </div> }

@@ -7,7 +7,9 @@ const Card = ({projectThumb, title, id}) => {
     <div className='card-container'>
         <img src={projectThumb} alt='projectThumb'/>
         {/* <div className='explore-button' >Explore {title}</div> */}
-        <Link to={`/detail/${id}`} >Details</Link>
+        <div className='details-button'>
+          <Link to={`/detail/${id}`} >Details about {title}</Link>
+        </div>  
     </div>
   )
 }

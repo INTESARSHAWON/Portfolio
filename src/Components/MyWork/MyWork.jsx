@@ -13,7 +13,7 @@ import arrow_icon from '../../assets/arrow_icon.svg';
 
 const MyWork = ({projectThumb, title}) => {
   return (
-    <div id='work' className='mywork'>
+    <div id='mywork' className='mywork'>
         <div className='mywork-title'>
             <h1>My Latest Work</h1>
             <img src={theme_pattern} alt='theme_pattern'/>

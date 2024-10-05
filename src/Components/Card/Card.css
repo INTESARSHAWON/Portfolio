@@ -27,3 +27,12 @@
     border: 0.5px solid white;
     border-radius: 50px;
 }
+
+.details-button{
+    font-size: larger;
+    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+    text-align: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
