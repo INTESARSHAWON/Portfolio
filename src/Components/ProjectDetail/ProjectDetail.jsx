@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import Navbar from '../Navbar/Navbar'
 import Footer from '../Footer/Footer'
 import { useLocation, useParams } from 'react-router'
 import './projectDetail.css';
@@ -41,8 +40,8 @@ const ProjectDetail = () => {
         screenshots: [dashboard, transactions, support, signup, signin, forgotpassword],
         projectdetails: "This is a responsive crypto dashboard app created by React where I implemented authentication. There is a signin page, a signup page, along with a dashboard with transactions and support system. A user can sign in or sign out from the dashboard. Here I use Chakra UI as well.",
         technologyUsed: ["React", ", ", "Chakra UI", ", ", "JS", ", ", "CSS", ", ", "html"],
-        livelink: "www.facebook.com",
-        gitlink: "www.facebook.com",
+        livelink: "https://www.facebook.com/",
+        gitlink: "https://www.facebook.com/",
       },
       {
         id: 2,
@@ -120,8 +119,10 @@ const ProjectDetail = () => {
           <div className='myworkFeatures'>
               <p>Technology Used- {project.technologyUsed}</p>
           </div>
-          <p>Livelink- {project.livelink}</p>
-          <p>Gitlink- {project.gitlink}</p>
+          <div className='project-details-bottom'>
+              <p>Livelink- <Link className='livelink' to={project.livelink}>[{project.livelink}]</Link> </p>
+              <p>Gitlink- <Link className='gitlink' to={project.gitlink}>[{project.gitlink}]</Link> </p>
+          </div>
         </div> }
         <Footer/>
     </div>

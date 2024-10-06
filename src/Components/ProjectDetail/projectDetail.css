@@ -51,6 +51,24 @@
     gap: 30px;
 }
 
+.project-details-bottom{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.livelink{
+    text-decoration: none;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.gitlink{
+    text-decoration: none;
+    color: #FFF;
+    cursor: pointer;
+}
+
 @media (max-width: 768px){
     .myworkImage{
         display: grid;
