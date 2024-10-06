@@ -83,7 +83,7 @@ const ProjectDetail = () => {
         projectdetails: "a sliding album created by JS and css where user can see the photos on a sliding album.",
         technologyUsed: ["JS", ", ", "CSS", ", ", "html"],
         livelink: "www.facebook.com",
-        gitlink: "www.facebook.com",
+        gitlink: "https://github.com/INTESARSHAWON/Sliding-Album",
       },
     ];
     
