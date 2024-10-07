@@ -41,11 +41,7 @@ const ProjectDetail = () => {
         screenshots: [dashboard, transactions, support, signup, signin, forgotpassword],
         projectdetails: "This is a responsive crypto dashboard app created by React where I implemented authentication. There is a signin page, a signup page, along with a dashboard with transactions and support system. A user can sign in or sign out from the dashboard. Here I use Chakra UI as well.",
         technologyUsed: ["React", ", ", "Chakra UI", ", ", "JS", ", ", "CSS", ", ", "html"],
-<<<<<<< HEAD
-        livelink: "www.facebook.com",
-=======
         livelink: "https://www.facebook.com/",
->>>>>>> bd03a30cb3245a97cd241854eb511a5289b5cfe8
         gitlink: "https://github.com/INTESARSHAWON/Auth-Crypto-Dashboard-using-React-Chakra-UI",
       },
       {
