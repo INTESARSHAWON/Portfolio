@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import Navbar from '../Navbar/Navbar'
 import Footer from '../Footer/Footer'
 import { useLocation, useParams } from 'react-router'
 import './projectDetail.css';
@@ -28,6 +27,7 @@ import contactPage from "../../assets/ECommerce/contactPage.jpg";
 import mainWebsite2 from "../../assets/AmazonClone/mainWebsite2.jpg";
 import slidingalbum from "../../assets/SlidingAlbum/slidingalbum.jpg";
 import slidingalbum2 from "../../assets/SlidingAlbum/slidingalbum2.jpg";
+import { FaGithub } from "react-icons/fa";
 
 const ProjectDetail = () => {
 
@@ -42,7 +42,7 @@ const ProjectDetail = () => {
         projectdetails: "This is a responsive crypto dashboard app created by React where I implemented authentication. There is a signin page, a signup page, along with a dashboard with transactions and support system. A user can sign in or sign out from the dashboard. Here I use Chakra UI as well.",
         technologyUsed: ["React", ", ", "Chakra UI", ", ", "JS", ", ", "CSS", ", ", "html"],
         livelink: "www.facebook.com",
-        gitlink: "www.facebook.com",
+        gitlink: "https://github.com/INTESARSHAWON/Auth-Crypto-Dashboard-using-React-Chakra-UI",
       },
       {
         id: 2,
@@ -50,8 +50,8 @@ const ProjectDetail = () => {
         screenshots: [dashboard2, playNow, playingGame, showRules],
         projectdetails: "its a Dice Game made with React. First user have to click play game to open the game. Then user have to select a number and roll the dice. If the number matches, user will get two point. If it doesn't then two points will be decreased. User can check total win or total lose in this game. Also user can check the rules and reset the game.",
         technologyUsed: ["React", ", ", "JS", ", ", "CSS", ", ", "html"],
-        livelink: "www.facebook.com",
-        gitlink: "www.facebook.com",
+        livelink: "https://iridescent-moxie-1ca858.netlify.app",
+        gitlink: "https://github.com/INTESARSHAWON/Dice-Game-using-react",
       },{
         id: 3,
         title: "React Foody Zone",
@@ -59,7 +59,7 @@ const ProjectDetail = () => {
         projectdetails: "A food related responsive webpage where all the data comes from backend. Here I use Api calling function. Here A user can search food from the list.",
         technologyUsed: ["React", ", ", "Styled components", ", ", "JS", ", ", "CSS", ", ", "html"],
         livelink: "www.facebook.com",
-        gitlink: "www.facebook.com",
+        gitlink: "https://github.com/INTESARSHAWON/Foody-Zone-Using-React",
       },{
         id: 4,
         title: "E-Commerce (JS)",
@@ -75,7 +75,7 @@ const ProjectDetail = () => {
         projectdetails: "This is a clone of the Amazon website. Its very simple. Only CSS and html are used here.",
         technologyUsed: ["CSS", ", ", "html"],
         livelink: "www.facebook.com",
-        gitlink: "www.facebook.com",
+        gitlink: "https://github.com/INTESARSHAWON/Amazon-Clone",
       },{
         id: 6,
         title: "Sliding Album (JS)",
@@ -83,7 +83,7 @@ const ProjectDetail = () => {
         projectdetails: "a sliding album created by JS and css where user can see the photos on a sliding album.",
         technologyUsed: ["JS", ", ", "CSS", ", ", "html"],
         livelink: "www.facebook.com",
-        gitlink: "www.facebook.com",
+        gitlink: "https://github.com/INTESARSHAWON/Sliding-Album",
       },
     ];
     
@@ -120,8 +120,10 @@ const ProjectDetail = () => {
           <div className='myworkFeatures'>
               <p>Technology Used- {project.technologyUsed}</p>
           </div>
-          <p>Livelink- {project.livelink}</p>
-          <p>Gitlink- {project.gitlink}</p>
+          <div className='project-details-bottom'>
+              <p><Link className='livelink' to={project.livelink}>Explore It Live...</Link> </p>
+              <p><Link className='gitlink' to={project.gitlink}> <FaGithub/> See it in Github</Link> </p>
+          </div>
         </div> }
         <Footer/>
     </div>
