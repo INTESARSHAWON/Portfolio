@@ -28,6 +28,7 @@ import mainWebsite2 from "../../assets/AmazonClone/mainWebsite2.jpg";
 import slidingalbum from "../../assets/SlidingAlbum/slidingalbum.jpg";
 import slidingalbum2 from "../../assets/SlidingAlbum/slidingalbum2.jpg";
 import { FaGithub } from "react-icons/fa";
+import StickyButton from '../StickyButton/StickyButton';
 
 const ProjectDetail = () => {
 
@@ -105,9 +106,7 @@ const ProjectDetail = () => {
   
   return (
     <div className=''>
-        <div className='sticky-button'>
-          <Link className= 'back-button' to="/#mywork"> <div> Back </div> </Link>
-        </div>
+        <StickyButton/>
         {isLoading ? <h1>Loading</h1> : <div className='projectDetail'>
           <h1>{project.title}</h1>
           <p>{project.projectdetails}</p>
