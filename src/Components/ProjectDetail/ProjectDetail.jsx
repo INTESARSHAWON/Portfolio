@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Footer from '../Footer/Footer'
 import { useLocation, useParams } from 'react-router'
-import './projectDetail.css';
+import './ProjectDetail.css';
 import { Link } from 'react-router-dom';
 import dashboard from "../../assets/ReactCryptoDashboard/dashboard.jpg";
 import transactions from "../../assets/ReactCryptoDashboard/transactions.jpg";
@@ -27,6 +27,20 @@ import contactPage from "../../assets/ECommerce/contactPage.jpg";
 import mainWebsite2 from "../../assets/AmazonClone/mainWebsite2.jpg";
 import slidingalbum from "../../assets/SlidingAlbum/slidingalbum.jpg";
 import slidingalbum2 from "../../assets/SlidingAlbum/slidingalbum2.jpg";
+import dlp1 from "../../assets/DoubleLandingPage/dlp1.jpg";
+import dlp2 from "../../assets/DoubleLandingPage/dlp2.jpg";
+import dlp3 from "../../assets/DoubleLandingPage/dlp3.jpg";
+import bise1 from "../../assets/BackgroundImageScrollEffect/bise1.jpg";
+import bise2 from "../../assets/BackgroundImageScrollEffect/bise2.jpg";
+import mp1 from "../../assets/MousePosition/mp1.jpg";
+import mp2 from "../../assets/MousePosition/mp2.jpg";
+import ps from "../../assets/ProfileStatictics/ps.jpg";
+import ctny from "../../assets/CountdownToNewYear/ctny.jpg";
+import pt from "../../assets/PomodoroTimer/pt.jpg";
+import dc from "../../assets/DigitalClock/dc.jpg";
+import mc from "../../assets/MiniCalender/mc.jpg";
+
+
 import { FaGithub } from "react-icons/fa";
 import StickyButton from '../StickyButton/StickyButton';
 
@@ -85,6 +99,70 @@ const ProjectDetail = () => {
         technologyUsed: ["JS", ", ", "CSS", ", ", "html"],
         livelink: "www.facebook.com",
         gitlink: "https://github.com/INTESARSHAWON/Sliding-Album",
+      },{
+        id: 11,
+        title: "Double Landing Page (JS)",
+        screenshots: [dlp1, dlp2, dlp3],
+        projectdetails: "a sliding album created by JS and css where user can see the photos on a sliding album.",
+        technologyUsed: ["JS", ", ", "CSS", ", ", "html"],
+        livelink: "www.facebook.com",
+        gitlink: " ",
+      },{
+        id: 12,
+        title: "Backgound Image Scroll Effect (JS)",
+        screenshots: [bise1, bise2],
+        projectdetails: "a sliding album created by JS and css where user can see the photos on a sliding album.",
+        technologyUsed: ["JS", ", ", "CSS", ", ", "html"],
+        livelink: "www.facebook.com",
+        gitlink: " ",
+      },{
+        id: 13,
+        title: "Mouse Position (JS)",
+        screenshots: [mp1, mp2],
+        projectdetails: "a sliding album created by JS and css where user can see the photos on a sliding album.",
+        technologyUsed: ["JS", ", ", "CSS", ", ", "html"],
+        livelink: "www.facebook.com",
+        gitlink: " ",
+      },{
+        id: 16,
+        title: "Profile Statictics (JS)",
+        screenshots: [ps],
+        projectdetails: "a sliding album created by JS and css where user can see the photos on a sliding album.",
+        technologyUsed: ["JS", ", ", "CSS", ", ", "html"],
+        livelink: "www.facebook.com",
+        gitlink: " ",
+      },{
+        id: 17,
+        title: "Countdown To New Year (JS)",
+        screenshots: [ctny],
+        projectdetails: "a sliding album created by JS and css where user can see the photos on a sliding album.",
+        technologyUsed: ["JS", ", ", "CSS", ", ", "html"],
+        livelink: "www.facebook.com",
+        gitlink: " ",
+      },{
+        id: 18,
+        title: "Pomodoro Timer (JS)",
+        screenshots: [pt],
+        projectdetails: "a sliding album created by JS and css where user can see the photos on a sliding album.",
+        technologyUsed: ["JS", ", ", "CSS", ", ", "html"],
+        livelink: "www.facebook.com",
+        gitlink: " ",
+      },{
+        id: 19,
+        title: "Digital Clock (JS)",
+        screenshots: [dc],
+        projectdetails: "a sliding album created by JS and css where user can see the photos on a sliding album.",
+        technologyUsed: ["JS", ", ", "CSS", ", ", "html"],
+        livelink: "www.facebook.com",
+        gitlink: " ",
+      },{
+        id: 20,
+        title: "Mini Calendar (JS)",
+        screenshots: [mc],
+        projectdetails: "a sliding album created by JS and css where user can see the photos on a sliding album.",
+        technologyUsed: ["JS", ", ", "CSS", ", ", "html"],
+        livelink: "www.facebook.com",
+        gitlink: " ",
       },
     ];
     
