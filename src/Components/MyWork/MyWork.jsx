@@ -9,6 +9,7 @@ import project_4 from '../../assets/project_4.jpg';
 import project_5 from '../../assets/project_5.jpg';
 import project_6 from '../../assets/project_6.jpg';
 import arrow_icon from '../../assets/arrow_icon.svg';
+import { Link } from 'react-router-dom';
 
 
 const MyWork = ({projectThumb, title}) => {
@@ -26,10 +27,12 @@ const MyWork = ({projectThumb, title}) => {
               <Card id={5} projectThumb={project_5} title="Amazon Clone"/>
               <Card id={6} projectThumb={project_6} title="Sliding Album (JS)"/>
           </div>
-          <div className='mywork-showmore'>
-              <p>Show More</p>
+          <Link to="/seemoredetail" className='mywork-showmore'> 
+            <div className='mywork-showmore-slide'>
+              <p> Show More  </p>
               <img src={arrow_icon} alt='arrow_icon'/>
-          </div>
+            </div>
+          </Link>
     </div>
   )
 }
