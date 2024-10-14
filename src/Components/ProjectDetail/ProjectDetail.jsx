@@ -65,7 +65,7 @@ const ProjectDetail = () => {
         screenshots: [dashboard2, playNow, playingGame, showRules],
         projectdetails: "its a Dice Game made with React. First user have to click play game to open the game. Then user have to select a number and roll the dice. If the number matches, user will get two point. If it doesn't then two points will be decreased. User can check total win or total lose in this game. Also user can check the rules and reset the game.",
         technologyUsed: ["React", ", ", "JS", ", ", "CSS", ", ", "html"],
-        livelink: "https://iridescent-moxie-1ca858.netlify.app",
+        livelink: "https://ddiceggame.netlify.app/",
         gitlink: "https://github.com/INTESARSHAWON/Dice-Game-using-react",
       },{
         id: 3,
@@ -81,7 +81,7 @@ const ProjectDetail = () => {
         screenshots: [mainWebsite, shopPage, shoppingPage, blogPage, aboutPage, contactPage],
         projectdetails: "This is a reponsive e-commerce site where a customer can buy products, add to cart, read some blogs, know about the site and can contact with the organization.",
         technologyUsed: ["JS", ", ", "CSS", ", ", "html"],
-        livelink: "www.facebook.com",
+        livelink: "https://ccaraecommerce.netlify.app/",
         gitlink: "www.facebook.com",
       },{
         id: 5,
@@ -89,7 +89,7 @@ const ProjectDetail = () => {
         screenshots: [mainWebsite2],
         projectdetails: "This is a clone of the Amazon website. Its very simple. Only CSS and html are used here.",
         technologyUsed: ["CSS", ", ", "html"],
-        livelink: "www.facebook.com",
+        livelink: "https://aamazoncclone.netlify.app/",
         gitlink: "https://github.com/INTESARSHAWON/Amazon-Clone",
       },{
         id: 6,
@@ -97,7 +97,7 @@ const ProjectDetail = () => {
         screenshots: [slidingalbum, slidingalbum2],
         projectdetails: "a sliding album created by JS and css where user can see the photos on a sliding album.",
         technologyUsed: ["JS", ", ", "CSS", ", ", "html"],
-        livelink: "www.facebook.com",
+        livelink: "https://sslidingalbum.netlify.app/",
         gitlink: "https://github.com/INTESARSHAWON/Sliding-Album",
       },{
         id: 11,
@@ -105,7 +105,7 @@ const ProjectDetail = () => {
         screenshots: [dlp1, dlp2, dlp3],
         projectdetails: "a sliding album created by JS and css where user can see the photos on a sliding album.",
         technologyUsed: ["JS", ", ", "CSS", ", ", "html"],
-        livelink: "www.facebook.com",
+        livelink: "https://ddoublellandingppage.netlify.app/",
         gitlink: " ",
       },{
         id: 12,
@@ -113,7 +113,7 @@ const ProjectDetail = () => {
         screenshots: [bise1, bise2],
         projectdetails: "a sliding album created by JS and css where user can see the photos on a sliding album.",
         technologyUsed: ["JS", ", ", "CSS", ", ", "html"],
-        livelink: "www.facebook.com",
+        livelink: "https://bbise.netlify.app/",
         gitlink: " ",
       },{
         id: 13,
@@ -121,7 +121,7 @@ const ProjectDetail = () => {
         screenshots: [mp1, mp2],
         projectdetails: "a sliding album created by JS and css where user can see the photos on a sliding album.",
         technologyUsed: ["JS", ", ", "CSS", ", ", "html"],
-        livelink: "www.facebook.com",
+        livelink: "https://mmouseposition.netlify.app/",
         gitlink: " ",
       },{
         id: 16,
@@ -129,7 +129,7 @@ const ProjectDetail = () => {
         screenshots: [ps],
         projectdetails: "a sliding album created by JS and css where user can see the photos on a sliding album.",
         technologyUsed: ["JS", ", ", "CSS", ", ", "html"],
-        livelink: "www.facebook.com",
+        livelink: "https://pprofilestatistics.netlify.app/",
         gitlink: " ",
       },{
         id: 17,
@@ -137,7 +137,7 @@ const ProjectDetail = () => {
         screenshots: [ctny],
         projectdetails: "a sliding album created by JS and css where user can see the photos on a sliding album.",
         technologyUsed: ["JS", ", ", "CSS", ", ", "html"],
-        livelink: "www.facebook.com",
+        livelink: "https://cctny.netlify.app/",
         gitlink: " ",
       },{
         id: 18,
@@ -145,7 +145,7 @@ const ProjectDetail = () => {
         screenshots: [pt],
         projectdetails: "a sliding album created by JS and css where user can see the photos on a sliding album.",
         technologyUsed: ["JS", ", ", "CSS", ", ", "html"],
-        livelink: "www.facebook.com",
+        livelink: "https://ppomodorotimer.netlify.app/",
         gitlink: " ",
       },{
         id: 19,
@@ -153,7 +153,7 @@ const ProjectDetail = () => {
         screenshots: [dc],
         projectdetails: "a sliding album created by JS and css where user can see the photos on a sliding album.",
         technologyUsed: ["JS", ", ", "CSS", ", ", "html"],
-        livelink: "www.facebook.com",
+        livelink: "https://ddigitalclock.netlify.app/",
         gitlink: " ",
       },{
         id: 20,
@@ -161,7 +161,7 @@ const ProjectDetail = () => {
         screenshots: [mc],
         projectdetails: "a sliding album created by JS and css where user can see the photos on a sliding album.",
         technologyUsed: ["JS", ", ", "CSS", ", ", "html"],
-        livelink: "www.facebook.com",
+        livelink: "https://mminicalendar.netlify.app/",
         gitlink: " ",
       },
     ];
@@ -198,8 +198,8 @@ const ProjectDetail = () => {
               <p>Technology Used- {project.technologyUsed}</p>
           </div>
           <div className='project-details-bottom'>
-              <p><Link className='livelink' to={project.livelink}>Explore It Live...</Link> </p>
-              <p><Link className='gitlink' to={project.gitlink}> <FaGithub/> See it in Github</Link> </p>
+              <p><Link className='livelink' to={project.livelink} target='_blank'>Explore It Live...</Link> </p>
+              <p><Link className='gitlink' to={project.gitlink} target='_blank'> <FaGithub/> See it in Github</Link> </p>
           </div>
         </div> }
         <Footer/>

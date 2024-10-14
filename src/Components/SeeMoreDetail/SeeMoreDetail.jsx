@@ -35,7 +35,7 @@ const SeeMoreDetail = () => {
             <Card id={4} projectThumb={project_4} title="E-Commerce (JS)"/>
             <Card id={5} projectThumb={project_5} title="Amazon Clone"/>
             <Card id={6} projectThumb={project_6} title="Sliding Album (JS)"/>
-            <Card id={11} projectThumb={project_11} title="Double Landing Page (JS)"/>
+            <Card id={11} projectThumb={project_11} title="Double Landing Page (JS)" location="/seemoredetail" />
             <Card id={12} projectThumb={project_12} title="Backgound Image Scroll Effect (JS)"/>
             <Card id={13} projectThumb={project_13} title="Mouse Position (JS)"/>
             <Card id={16} projectThumb={project_16} title="Profile Statictics (JS)"/>
