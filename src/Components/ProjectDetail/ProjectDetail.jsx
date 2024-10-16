@@ -56,7 +56,7 @@ const ProjectDetail = () => {
         screenshots: [dashboard, transactions, support, signup, signin, forgotpassword],
         projectdetails: "This is a responsive crypto dashboard app created by React where I implemented authentication. There is a signin page, a signup page, along with a dashboard with transactions and support system. A user can sign in or sign out from the dashboard. Here I use Chakra UI as well.",
         technologyUsed: ["React", ", ", "Chakra UI", ", ", "JS", ", ", "CSS", ", ", "html"],
-        livelink: "https://www.facebook.com/",
+        livelink: "https://auth-crypto-dashboard-using-react-chakra-ui.vercel.app/",
         gitlink: "https://github.com/INTESARSHAWON/Auth-Crypto-Dashboard-using-React-Chakra-UI",
       },
       {
@@ -73,7 +73,7 @@ const ProjectDetail = () => {
         screenshots: [foodyzone, breakfast, lunch, dinner, searchoption],
         projectdetails: "A food related responsive webpage where all the data comes from backend. Here I use Api calling function. Here A user can search food from the list.",
         technologyUsed: ["React", ", ", "Styled components", ", ", "JS", ", ", "CSS", ", ", "html"],
-        livelink: "www.facebook.com",
+        livelink: "https://foody-zone-using-react.vercel.app/?vercelToolbarCode=9mAQw0URyaQtJvp",
         gitlink: "https://github.com/INTESARSHAWON/Foody-Zone-Using-React",
       },{
         id: 4,

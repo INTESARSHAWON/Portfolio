@@ -14,7 +14,7 @@ const Hero = () => {
             <div className= 'hero-resume'>
                 My Resume
             </div>
-            <Link className= 'hero-github' to="https://github.com/INTESARSHAWON"> <div> <FaGithub/> Github </div> </Link>
+            <Link className= 'hero-github' to="https://github.com/INTESARSHAWON" target='_blank'> <div> <FaGithub/> Github </div> </Link>
         </div>
     </div>
   )
