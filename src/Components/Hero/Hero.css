@@ -6,8 +6,9 @@
 }
 
 .hero img{
-    height: 200px;
+    height: 300px;
     margin-top: 150px;
+    border-radius: 50%;
 }
 
 .hero h1{
