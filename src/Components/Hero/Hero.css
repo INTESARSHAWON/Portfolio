@@ -35,10 +35,22 @@
 .hero-action{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 25px;
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 50px;
+}
+
+.hero-resume{
+    padding: 25px 75px;
+    border-radius: 50px;
+    border: 2px solid #FFF;
+    cursor: pointer;
+}
+
+.hero-resume:hover{
+    border-color: #B415FF;
 }
 
 .hero-github{
@@ -52,19 +64,24 @@
     cursor: pointer;
 }
 
-.hero-resume{
-    padding: 25px 75px;
-    border-radius: 50px;
-    border: 2px solid #FFF;
-    cursor: pointer;
-}
-
 .hero-github:hover{
     border: 2px solid white;
 }
 
-.hero-resume:hover{
-    border-color: #B415FF;
+.hero-linkedin{
+    text-decoration: none;
+    display: flex;
+    gap: 5px;
+    padding: 25px 45px;
+    border-radius: 50px;
+    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
+    color: #FFF;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.hero-linkedin:hover{
+    border: 2px solid white;
 }
 
 @media (max-width: 768px){
@@ -91,6 +108,8 @@
         font-size: 18px;
         font-weight: 500;
         margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
     }
 
     .hero-connect{
