@@ -7,6 +7,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 import menu_open from '../../assets/menu_open.svg';
 import menu_close from '../../assets/menu_close.svg';
 import { useLocation } from 'react-router';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 
@@ -47,7 +48,7 @@ const Navbar = () => {
             <li><AnchorLink className='anchor-link' offset={50} href='#mywork'><p onClick={()=> setMenu('work')}>Portfolio</p></AnchorLink>{menu === 'work' ? <img src={underline} alt='underline'/> : <></>}</li>
             <li><AnchorLink className='anchor-link' offset={50} href='#contact'><p onClick={()=> setMenu('contact')}>Contact</p></AnchorLink>{menu === 'contact' ? <img src={underline} alt='underline'/> : <></>}</li>
         </ul>
-        <div className='nav-connect'><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect With Me</AnchorLink></div>
+        <div className='nav-connect'><Link to="https://www.linkedin.com/in/intesar-shawon-292752179/" className='anchor-link' offset={50} target='_blank'>Connect With Me</Link></div>
     </div>
   )
 }
