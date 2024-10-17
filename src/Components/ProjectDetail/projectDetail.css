@@ -73,5 +73,11 @@
         grid-template-columns: auto;
         gap: 30px;
     }
-    
+
+    .project-details-bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
 }
