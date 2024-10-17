@@ -17,8 +17,9 @@ const About = () => {
             </div>
             <div className='about-right'>
                 <div className='about-para'>
-                    <p>I am Intesar Shawon, Frontend Developer based in Bangladesh I am Intesar Shawon, Frontend Developer based in Bangladesh I am Intesar Shawon, Frontend Developer based in Bangladesh I am Intesar Shawon, Frontend Developer based in Bangladesh</p>
-                    <p>I am Intesar Shawon, Frontend Developer based in Bangladesh I am Intesar Shawon, Frontend Developer based in Bangladesh I am Intesar Shawon, Frontend Developer based in Bangladesh I am Intesar Shawon, Frontend Developer based in Bangladesh</p>
+                    <p>As a teenager at school and college, I was the kid other students approached about issues with their phones or laptop. I was the go-to guy for fixing resolving any technical problems. </p>
+                    <p>Today, not much has changed. I’m still the first point of call for technical issues. The difference is I now also keen to develop innovative software to solve the problems. Currently I am a Frontend Developer based on React. Soon I will complete Next JS as well. I have speciality on Raw CSS and vanila JS as well. I am a good C programmer as well.</p>
+                    <p>If you want to know more about me, send me a message or reach out to me at intesarshawon@gmail.com or call me at +880 1676331312</p>
                 </div>
                 <div className='about-skills'>
                     <div className='about-skill'>
