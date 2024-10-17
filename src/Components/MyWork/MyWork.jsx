@@ -20,19 +20,21 @@ const MyWork = ({projectThumb, title}) => {
             <img src={theme_pattern} alt='theme_pattern'/>
         </div>
         <div className='mywork-container'>
+            <div className='mywork-container2'>
               <Card id={1} projectThumb={project_1} title="React Auth Dashboard"/>
               <Card id={2} projectThumb={project_2} title="Dice Games (React)"/>
               <Card id={3} projectThumb={project_3} title="React Foody Zone"/>
               <Card id={4} projectThumb={project_4} title="E-Commerce (JS)"/>
               <Card id={5} projectThumb={project_5} title="Amazon Clone"/>
               <Card id={6} projectThumb={project_6} title="Sliding Album (JS)"/>
-          </div>
-          <Link to="/seemoredetail" className='mywork-showmore'> 
+            </div>
+        </div>
+        <Link to="/seemoredetail" className='mywork-showmore'> 
             <div className='mywork-showmore-slide'>
               <p> Show More  </p>
               <img src={arrow_icon} alt='arrow_icon'/>
             </div>
-          </Link>
+        </Link>
     </div>
   )
 }

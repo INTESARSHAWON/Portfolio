@@ -29,6 +29,7 @@ const SeeMoreDetail = () => {
     <div>
         <StickyButton/>
         <div className='mywork-container'>
+          <div className='mywork-container2'>
             <Card id={1} projectThumb={project_1} title="React Auth Dashboard"/>
             <Card id={2} projectThumb={project_2} title="Dice Games (React)"/>
             <Card id={3} projectThumb={project_3} title="React Foody Zone"/>
@@ -43,6 +44,7 @@ const SeeMoreDetail = () => {
             <Card id={18} projectThumb={project_18} title="Pomodoro Timer (JS)"/>
             <Card id={19} projectThumb={project_19} title="Digital Clock (JS)"/>
             <Card id={20} projectThumb={project_20} title="Mini Calendar (JS)"/>
+          </div>  
         </div>
         <Footer/>      
     </div>
