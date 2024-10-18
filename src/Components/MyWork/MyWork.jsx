@@ -19,6 +19,7 @@ const MyWork = ({projectThumb, title}) => {
             <h1>My Latest Work</h1>
             <img src={theme_pattern} alt='theme_pattern'/>
         </div>
+        
         <div className='mywork-container'>
             <div className='mywork-container2'>
               <Card id={1} projectThumb={project_1} title="React Auth Dashboard"/>
