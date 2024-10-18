@@ -79,7 +79,7 @@ const ProjectDetail = () => {
         id: 4,
         title: "E-Commerce (JS)",
         screenshots: [mainWebsite, shopPage, shoppingPage, blogPage, aboutPage, contactPage],
-        projectdetails: "This is a reponsive e-commerce site where a customer can buy products, add to cart, read some blogs, know about the site and can contact with the organization.",
+        projectdetails: "This is a responsive e-commerce site where a customer can buy products, add to cart, read some blogs, know about the site and can contact with the organization.",
         technologyUsed: ["JS", ", ", "CSS", ", ", "html"],
         livelink: "https://ccaraecommerce.netlify.app/",
         gitlink: "www.facebook.com",
