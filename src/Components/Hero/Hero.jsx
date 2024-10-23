@@ -9,9 +9,8 @@ const Hero = () => {
   return (
     <div id='home' className='hero'>
         <img src={Intesar_Alam_Shawon} alt='Intesar_Alam_Shawon' />
-        <h1><span>I am Intesar Shawon</span>, Frontend Developer based in Bangladesh</h1>
-        <p>If you want to reach out to me send me a message at intesarshawon@gmail.com
-        or call me at +880-1676331312</p>
+        <h1><span>I am Intesar Shawon</span>, <b> Frontend Developer based in Bangladesh </b></h1>
+        
         <div className= 'hero-action'>
             <div className= 'hero-resume'>
                 My Resume
