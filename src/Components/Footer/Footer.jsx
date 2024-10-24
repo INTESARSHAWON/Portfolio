@@ -26,11 +26,6 @@ const Footer = () => {
             <p className='footer-bottom-left'>
                 © 2024 Intesar Shawon. All rights reserved.
             </p>
-            <div className='footer-bottom-right'>
-                <p>Term of Services</p>
-                <p>Privacy Policy</p>
-                <p>Connect With Me</p>
-            </div>
         </div>
     </div>
   )

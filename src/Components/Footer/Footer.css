@@ -67,12 +67,6 @@
     font-size: 18px;
 }
 
-.footer-bottom-right{
-    display: flex;
-    gap: 50px;
-    margin-bottom: 50px;
-}
-
 @media(max-width: 768px){
     /* .footer{
         margin: 80px 90px;
@@ -98,9 +92,4 @@
         padding: 15px 25px;        
     }
 
-    .footer-bottom-right{
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
-    }
 }
