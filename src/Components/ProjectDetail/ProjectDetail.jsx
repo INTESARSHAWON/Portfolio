@@ -54,7 +54,7 @@ const ProjectDetail = () => {
         id: 1,
         title: "React Auth Cripto Dashboard",
         screenshots: [dashboard, transactions, support, signup, signin, forgotpassword],
-        projectdetails: "This is a responsive crypto dashboard app created by React where I implemented authentication. There is a signin page, a signup page, along with a dashboard with transactions and support system. A user can sign in or sign out from the dashboard. Here I use Chakra UI as well.",
+        projectdetails: "This is a responsive crypto dashboard app created by React where I implemented authentication. There is a signin page, a signup page, along with a dashboard with transactions and support system. A user can sign in or sign out from the dashboard. Here I use Chakra UI as well. Admin Credentials: username: test11@gmail.com  password: 1234567",
         technologyUsed: ["React", ", ", "Chakra UI", ", ", "JS", ", ", "CSS", ", ", "html"],
         livelink: "https://auth-crypto-dashboard-using-react-chakra-ui.vercel.app/",
         gitlink: "https://github.com/INTESARSHAWON/Auth-Crypto-Dashboard-using-React-Chakra-UI",
