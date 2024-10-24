@@ -93,4 +93,8 @@
         display: flex;
         flex-direction: column;
     }
+
+    .footer-email-input{
+        padding: 15px 25px;        
+    }
 }

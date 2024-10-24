@@ -69,15 +69,33 @@
     }
 
     .myworkImage{
-        display: grid;
-        grid-template-columns: auto;
+        display: flex;
+        flex-direction: column;
         gap: 30px;
+    }
+
+    .myworkFeatures{
+        display: flex;
     }
 
     .project-details-bottom{
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .livelink{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .gitlink{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
 }
