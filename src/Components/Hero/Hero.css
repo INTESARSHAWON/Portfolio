@@ -94,17 +94,17 @@
 @media (max-width: 768px){
     .hero img{
         margin-top: 120px;
-        width: 220px;
+        height: 250px;
     }
-
+    
     .hero h1{
         margin-top: 20px;
         width: 90%;
-        font-size: 50px;
+        font-size: 40px;
     }
 
     .hero h1 b{
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .hero p{

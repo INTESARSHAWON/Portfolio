@@ -74,9 +74,9 @@
 }
 
 @media(max-width: 768px){
-    .footer{
-        margin: 50px 70px;
-    }
+    /* .footer{
+        margin: 80px 90px;
+    } */
 
     .footer-top{
         flex-direction: column;
@@ -96,5 +96,10 @@
 
     .footer-email-input{
         padding: 15px 25px;        
+    }
+
+    .footer-bottom-right{
+        display: flex;
+        flex-direction: column;
     }
 }
