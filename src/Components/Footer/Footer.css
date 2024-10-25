@@ -68,9 +68,6 @@
 }
 
 @media(max-width: 768px){
-    /* .footer{
-        margin: 80px 90px;
-    } */
 
     .footer-top{
         flex-direction: column;
