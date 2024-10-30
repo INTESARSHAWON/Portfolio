@@ -26,7 +26,7 @@ const MyWork = ({projectThumb, title}) => {
               <Card id={2} projectThumb={project_2} title="Dice Games (React)"/>
               <Card id={3} projectThumb={project_3} title="React Foody Zone"/>
               <Card id={4} projectThumb={project_4} title="E-Commerce (JS)"/>
-              <Card id={5} projectThumb={project_5} title="Amazon Clone"/>
+              <Card id={5} projectThumb={project_5} title="React Advance Filtering"/>
               <Card id={6} projectThumb={project_6} title="Sliding Album (JS)"/>
             </div>
         </div>

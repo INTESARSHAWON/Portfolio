@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import Footer from '../Footer/Footer'
 import { useLocation, useParams } from 'react-router'
 import './ProjectDetail.css';
@@ -24,7 +24,10 @@ import shoppingPage from "../../assets/ECommerce/shoppingPage.jpg";
 import blogPage from "../../assets/ECommerce/blogPage.jpg";
 import aboutPage from "../../assets/ECommerce/aboutPage.jpg";
 import contactPage from "../../assets/ECommerce/contactPage.jpg";
-import mainWebsite2 from "../../assets/AmazonClone/mainWebsite2.jpg";
+import af1 from "../../assets/AdvanceFiltering/af1.jpg";
+import af2 from "../../assets/AdvanceFiltering/af2.jpg";
+import af3 from "../../assets/AdvanceFiltering/af3.jpg";
+import af4 from "../../assets/AdvanceFiltering/af4.jpg";
 import slidingalbum from "../../assets/SlidingAlbum/slidingalbum.jpg";
 import slidingalbum2 from "../../assets/SlidingAlbum/slidingalbum2.jpg";
 import dlp1 from "../../assets/DoubleLandingPage/dlp1.jpg";
@@ -39,7 +42,7 @@ import ctny from "../../assets/CountdownToNewYear/ctny.jpg";
 import pt from "../../assets/PomodoroTimer/pt.jpg";
 import dc from "../../assets/DigitalClock/dc.jpg";
 import mc from "../../assets/MiniCalender/mc.jpg";
-
+import mainWebsite2 from "../../assets/AmazonClone/mainWebsite2.jpg";
 
 import { FaGithub } from "react-icons/fa";
 import StickyButton from '../StickyButton/StickyButton';
@@ -85,12 +88,12 @@ const ProjectDetail = () => {
         gitlink: "https://github.com/INTESARSHAWON/Cara-E-Commerce",
       },{
         id: 5,
-        title: "Amazon Clone",
-        screenshots: [mainWebsite2],
-        projectdetails: "This is a clone of the Amazon website. Its very simple. Only CSS and html are used here.",
-        technologyUsed: ["CSS", ", ", "html"],
-        livelink: "https://aamazoncclone.netlify.app/",
-        gitlink: "https://github.com/INTESARSHAWON/Amazon-Clone",
+        title: "React Advance Filtering",
+        screenshots: [af1, af2, af3, af4],
+        projectdetails: "This is an E-Commerce website. This isn't a responsive web like my other projects. There are different types of filtering and searching options that I use here with some vanila JS code.",
+        technologyUsed: ["React", ", ", "JS", ", ", "CSS", ", ", "html"],
+        livelink: "https://advancefiltering.netlify.app/",
+        gitlink: "https://github.com/INTESARSHAWON/Advance-Filtering-with-React",
       },{
         id: 6,
         title: "Sliding Album (JS)",
@@ -163,6 +166,14 @@ const ProjectDetail = () => {
         technologyUsed: ["JS", ", ", "CSS", ", ", "html"],
         livelink: "https://mminicalendar.netlify.app/",
         gitlink: "https://github.com/INTESARSHAWON/Mini-Calendar",
+      },{
+        id: 21,
+        title: "Amazon Clone",
+        screenshots: [mainWebsite2],
+        projectdetails: "This is a clone of the Amazon website. Its very simple. Only CSS and html are used here.",
+        technologyUsed: ["CSS", ", ", "html"],
+        livelink: "https://aamazoncclone.netlify.app/",
+        gitlink: "https://github.com/INTESARSHAWON/Amazon-Clone",
       },
     ];
     

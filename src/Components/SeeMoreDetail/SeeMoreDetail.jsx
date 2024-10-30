@@ -17,6 +17,7 @@ import project_17 from '../../assets/project_17.jpg';
 import project_18 from '../../assets/project_18.jpg';
 import project_19 from '../../assets/project_19.jpg';
 import project_20 from '../../assets/project_20.jpg';
+import project_21 from '../../assets/project_21.jpg';
 
 
 const SeeMoreDetail = () => {
@@ -34,7 +35,7 @@ const SeeMoreDetail = () => {
             <Card id={2} projectThumb={project_2} title="Dice Games (React)"/>
             <Card id={3} projectThumb={project_3} title="React Foody Zone"/>
             <Card id={4} projectThumb={project_4} title="E-Commerce (JS)"/>
-            <Card id={5} projectThumb={project_5} title="Amazon Clone"/>
+            <Card id={5} projectThumb={project_5} title="React Advance Filtering"/>
             <Card id={6} projectThumb={project_6} title="Sliding Album (JS)"/>
             <Card id={11} projectThumb={project_11} title="Double Landing Page (JS)" location="/seemoredetail" />
             <Card id={12} projectThumb={project_12} title="Backgound Image Scroll Effect (JS)"/>
@@ -44,6 +45,7 @@ const SeeMoreDetail = () => {
             <Card id={18} projectThumb={project_18} title="Pomodoro Timer (JS)"/>
             <Card id={19} projectThumb={project_19} title="Digital Clock (JS)"/>
             <Card id={20} projectThumb={project_20} title="Mini Calendar (JS)"/>
+            <Card id={21} projectThumb={project_21} title="Amazon Clone"/>
           </div>  
         </div>
         <Footer/>      
