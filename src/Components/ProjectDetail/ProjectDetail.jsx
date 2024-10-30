@@ -90,7 +90,7 @@ const ProjectDetail = () => {
         id: 5,
         title: "React Advance Filtering",
         screenshots: [af1, af2, af3, af4],
-        projectdetails: "This is an E-Commerce website. This isn't a responsive web like my other projects. There are different types of filtering and searching options that I use here with some vanila JS code.",
+        projectdetails: "This is an E-Commerce website. There are different types of filtering and searching options that I use here with some vanila JS code. Here a person can search any item using filter option. Items will be sorted out by filtering. This isn't a responsive web like my other projects. This is only search oriented.",
         technologyUsed: ["React", ", ", "JS", ", ", "CSS", ", ", "html"],
         livelink: "https://advancefiltering.netlify.app/",
         gitlink: "https://github.com/INTESARSHAWON/Advance-Filtering-with-React",
