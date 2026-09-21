@@ -16,12 +16,12 @@ const Hero = () => {
   return (
     <div id='home' className='hero'>
         <img src={Intesar_Alam_Shawon} alt='Intesar_Alam_Shawon' />
-        <h1><span>I am Intesar Shawon</span>, <b> Frontend Developer based in Bangladesh </b></h1>
+        <h1><span>I am Intesar Shawon</span>, <b> Communications & Media Professional  </b></h1>
         
         <div className= 'hero-action'>
-            <div className= 'hero-resume' onClick={onMyResumeClick}>
+            {/* <div className= 'hero-resume' onClick={onMyResumeClick}>
                My Resume  
-            </div>
+            </div> */}
             <Link className= 'hero-github' to="https://github.com/INTESARSHAWON" target='_blank'> <div> <FaGithub/> Github </div> </Link>
             <Link className= 'hero-linkedin' to="https://www.linkedin.com/in/intesar-shawon-292752179/" target='_blank'> <div> Linked<FaLinkedin/> </div> </Link>
         </div>
