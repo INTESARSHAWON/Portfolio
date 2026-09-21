@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Footer from '../Footer/Footer'
 import { useLocation, useParams } from 'react-router'
-import './projectDetail.css';
+import './ProjectDetail.css';
 import { Link } from 'react-router-dom';
 import dashboard from "../../assets/ReactCryptoDashboard/dashboard.jpg";
 import transactions from "../../assets/ReactCryptoDashboard/transactions.jpg";
